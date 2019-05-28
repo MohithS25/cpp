@@ -1,0 +1,51 @@
+=>BASIC COMMANDS:-
+ -endl : Used to end the line and move to the next line (flush + \n)
+ -flush: Doesn't end line and allows user to continue in same line
+ -cout: It is used to output the result
+ -cin: It is used to input any value or used to input data 
+
+--------------------------------------------------------------------------------
+VARIABLES:-
+
+=>Building blocks of programming languages
+
+=>Ex:
+    int number = 5;
+      int is a keyword(datatype)
+      number is the variable name 
+      5 is value assigned to variable
+
+=>Naming a variable:
+  -A variable name cannot start with a number
+  -If a variable name has two words it should be separated with an underscore(_)
+
+=>Variables can operated upon by mathematical operators
+=>Value of a varible can be reassigned
+--------------------------------------------------------------------------------
+
+STRINGS:-
+=>Keyword used is string
+=>String is declared in double quotes ""
+=>Ex:
+     string text = "This is a string";
+       string is the class
+       text is the object which stores the string
+=>A string is generally used to store text
+=>Strings can be concatinated
+-------------------------------------------------------------------------------
+
+=>DATA TYPES:-
+ ->Integer(int):
+   -Header file used is 'limits'
+   -Keyword used is 'int'
+   -Allocates 4 bytes in memory
+   -Objects used with int:
+     sizeof: Gives the number of bytes allocated in memory
+     INT_MAX: Gives the maximum number/value int datatype can store
+     INT_MIN: Gives min number/value int datatype can store
+     long int: Used to input very large integer values more than what can be
+               stored using int(long int allocates 8 bytes in memory)
+     short int: Used to input very small integer values(allocates 2 bytes)
+     signed int: Can be used to insert both -ve and +ve values
+     unsigned int : Used to assign only +ve values
+
