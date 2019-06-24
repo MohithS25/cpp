@@ -49,3 +49,20 @@ STRINGS:-
      signed int: Can be used to insert both -ve and +ve values
      unsigned int : Used to assign only +ve values
 
+ ->Floating type(float):
+   -Keyword used 'float'
+   -Can be used
+   -Allocates 4 bytes in memory
+     [cout can output only 8 significant digits. We can use the option                'setprecision(value)' to increase or decrease significant digits]
+   
+ ->Boolean:
+   -Keyword used 'bool'
+   -Used to output true or false values
+   -In C++, 0 = false and 1 = true
+    
+ ->Character:
+   -Keyword used char
+   -Used to input and output characters
+   -We need to used single quotes (' ') to input char values
+   -Allocates 1 byte in memory
+--------------------------------------------------------------------------------
